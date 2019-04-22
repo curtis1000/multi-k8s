@@ -9,7 +9,7 @@ Fire up the dev host
 minikube start
 ```
 
-Declare your db password in a secret:
+Declare your db password in a secret (can be anything):
 ```
 kubectl create secret generic pgpassword --from-literal PGPASSWORD=12345asdf
 ```
